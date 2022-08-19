@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		14CBD87D28ABE78B002ABDBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD87C28ABE78B002ABDBD /* AppDelegate.swift */; };
 		14CBD87F28ABE78B002ABDBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD87E28ABE78B002ABDBD /* SceneDelegate.swift */; };
-		14CBD88128ABE78B002ABDBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD88028ABE78B002ABDBD /* ViewController.swift */; };
-		14CBD88428ABE78B002ABDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD88228ABE78B002ABDBD /* Main.storyboard */; };
 		14CBD88628ABE78D002ABDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD88528ABE78D002ABDBD /* Assets.xcassets */; };
 		14CBD88928ABE78D002ABDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD88728ABE78D002ABDBD /* LaunchScreen.storyboard */; };
+		14CBD89628AC1D2A002ABDBD /* FuturamaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD89428AC1D2A002ABDBD /* FuturamaVC.swift */; };
+		14CBD89728AC1D2A002ABDBD /* FuturamaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD89528AC1D2A002ABDBD /* FuturamaVC.xib */; };
+		14CBD89A28AC1D51002ABDBD /* FuturamaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD89928AC1D51002ABDBD /* FuturamaPresenter.swift */; };
+		14CBD89E28AC1DCF002ABDBD /* HeroesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD89C28AC1DCF002ABDBD /* HeroesVC.swift */; };
+		14CBD89F28AC1DCF002ABDBD /* HeroesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD89D28AC1DCF002ABDBD /* HeroesVC.xib */; };
+		14CBD8A128AC1DDD002ABDBD /* HeroesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8A028AC1DDD002ABDBD /* HeroesPresenter.swift */; };
+		14CBD8A428AC1FAC002ABDBD /* HeroesFuturama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8A328AC1FAC002ABDBD /* HeroesFuturama.swift */; };
+		14CBD8C928AD45A9002ABDBD /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8C828AD45A9002ABDBD /* NetworkingService.swift */; };
+		14CBD8D428AE2B17002ABDBD /* HeroesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8D228AE2B17002ABDBD /* HeroesCell.swift */; };
+		14CBD8D528AE2B17002ABDBD /* HeroesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD8D328AE2B17002ABDBD /* HeroesCell.xib */; };
+		14CBD8D928AE2C36002ABDBD /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8D728AE2C36002ABDBD /* InfoVC.swift */; };
+		14CBD8DA28AE2C36002ABDBD /* InfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CBD8D828AE2C36002ABDBD /* InfoVC.xib */; };
+		14CBD8DC28AE2D8E002ABDBD /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8DB28AE2D8E002ABDBD /* Assembler.swift */; };
+		14CBD8DE28AE2DAA002ABDBD /* InfoVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8DD28AE2DAA002ABDBD /* InfoVCPresenter.swift */; };
+		14CBD8E028AE317E002ABDBD /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBD8DF28AE317E002ABDBD /* Navigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14CBD87928ABE78B002ABDBD /* Lesson_11_Futurama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_11_Futurama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CBD87C28ABE78B002ABDBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14CBD87E28ABE78B002ABDBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14CBD88028ABE78B002ABDBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		14CBD88328ABE78B002ABDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14CBD88528ABE78D002ABDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14CBD88828ABE78D002ABDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CBD88A28ABE78D002ABDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CBD89428AC1D2A002ABDBD /* FuturamaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturamaVC.swift; sourceTree = "<group>"; };
+		14CBD89528AC1D2A002ABDBD /* FuturamaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FuturamaVC.xib; sourceTree = "<group>"; };
+		14CBD89928AC1D51002ABDBD /* FuturamaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturamaPresenter.swift; sourceTree = "<group>"; };
+		14CBD89C28AC1DCF002ABDBD /* HeroesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesVC.swift; sourceTree = "<group>"; };
+		14CBD89D28AC1DCF002ABDBD /* HeroesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesVC.xib; sourceTree = "<group>"; };
+		14CBD8A028AC1DDD002ABDBD /* HeroesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenter.swift; sourceTree = "<group>"; };
+		14CBD8A328AC1FAC002ABDBD /* HeroesFuturama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesFuturama.swift; sourceTree = "<group>"; };
+		14CBD8C828AD45A9002ABDBD /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		14CBD8D228AE2B17002ABDBD /* HeroesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesCell.swift; sourceTree = "<group>"; };
+		14CBD8D328AE2B17002ABDBD /* HeroesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesCell.xib; sourceTree = "<group>"; };
+		14CBD8D728AE2C36002ABDBD /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		14CBD8D828AE2C36002ABDBD /* InfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoVC.xib; sourceTree = "<group>"; };
+		14CBD8DB28AE2D8E002ABDBD /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		14CBD8DD28AE2DAA002ABDBD /* InfoVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVCPresenter.swift; sourceTree = "<group>"; };
+		14CBD8DF28AE317E002ABDBD /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,124 @@
 		14CBD87B28ABE78B002ABDBD /* Lesson_11_Futurama */ = {
 			isa = PBXGroup;
 			children = (
-				14CBD87C28ABE78B002ABDBD /* AppDelegate.swift */,
-				14CBD87E28ABE78B002ABDBD /* SceneDelegate.swift */,
-				14CBD88028ABE78B002ABDBD /* ViewController.swift */,
-				14CBD88228ABE78B002ABDBD /* Main.storyboard */,
-				14CBD88528ABE78D002ABDBD /* Assets.xcassets */,
-				14CBD88728ABE78D002ABDBD /* LaunchScreen.storyboard */,
-				14CBD88A28ABE78D002ABDBD /* Info.plist */,
+				14CBD8C528AD3D19002ABDBD /* Services */,
+				14CBD8A228AC1DEB002ABDBD /* Model */,
+				14CBD89328AC1CA3002ABDBD /* Screens */,
+				14CBD89228AC1C91002ABDBD /* Storyboard */,
+				14CBD89128AC1C84002ABDBD /* Source */,
+				14CBD89028AC1C63002ABDBD /* SupportFiles */,
 			);
 			path = Lesson_11_Futurama;
+			sourceTree = "<group>";
+		};
+		14CBD89028AC1C63002ABDBD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD88A28ABE78D002ABDBD /* Info.plist */,
+				14CBD87E28ABE78B002ABDBD /* SceneDelegate.swift */,
+				14CBD87C28ABE78B002ABDBD /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		14CBD89128AC1C84002ABDBD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD88528ABE78D002ABDBD /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		14CBD89228AC1C91002ABDBD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD88728ABE78D002ABDBD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		14CBD89328AC1CA3002ABDBD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8D628AE2C09002ABDBD /* InfoHeroes */,
+				14CBD89B28AC1D66002ABDBD /* HeroesVC */,
+				14CBD89828AC1D31002ABDBD /* FuturamaVC */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		14CBD89828AC1D31002ABDBD /* FuturamaVC */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD89528AC1D2A002ABDBD /* FuturamaVC.xib */,
+				14CBD89428AC1D2A002ABDBD /* FuturamaVC.swift */,
+				14CBD89928AC1D51002ABDBD /* FuturamaPresenter.swift */,
+			);
+			path = FuturamaVC;
+			sourceTree = "<group>";
+		};
+		14CBD89B28AC1D66002ABDBD /* HeroesVC */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8D128AE2AFF002ABDBD /* HeroesCell */,
+				14CBD89C28AC1DCF002ABDBD /* HeroesVC.swift */,
+				14CBD89D28AC1DCF002ABDBD /* HeroesVC.xib */,
+				14CBD8A028AC1DDD002ABDBD /* HeroesPresenter.swift */,
+			);
+			path = HeroesVC;
+			sourceTree = "<group>";
+		};
+		14CBD8A228AC1DEB002ABDBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8A328AC1FAC002ABDBD /* HeroesFuturama.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14CBD8C528AD3D19002ABDBD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8C728AD458D002ABDBD /* Networking */,
+				14CBD8C628AD4584002ABDBD /* Navigator */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14CBD8C628AD4584002ABDBD /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8DB28AE2D8E002ABDBD /* Assembler.swift */,
+				14CBD8DF28AE317E002ABDBD /* Navigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		14CBD8C728AD458D002ABDBD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8C828AD45A9002ABDBD /* NetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		14CBD8D128AE2AFF002ABDBD /* HeroesCell */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8D228AE2B17002ABDBD /* HeroesCell.swift */,
+				14CBD8D328AE2B17002ABDBD /* HeroesCell.xib */,
+			);
+			path = HeroesCell;
+			sourceTree = "<group>";
+		};
+		14CBD8D628AE2C09002ABDBD /* InfoHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				14CBD8D728AE2C36002ABDBD /* InfoVC.swift */,
+				14CBD8D828AE2C36002ABDBD /* InfoVC.xib */,
+				14CBD8DD28AE2DAA002ABDBD /* InfoVCPresenter.swift */,
+			);
+			path = InfoHeroes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CBD8DA28AE2C36002ABDBD /* InfoVC.xib in Resources */,
+				14CBD89F28AC1DCF002ABDBD /* HeroesVC.xib in Resources */,
+				14CBD89728AC1D2A002ABDBD /* FuturamaVC.xib in Resources */,
 				14CBD88928ABE78D002ABDBD /* LaunchScreen.storyboard in Resources */,
+				14CBD8D528AE2B17002ABDBD /* HeroesCell.xib in Resources */,
 				14CBD88628ABE78D002ABDBD /* Assets.xcassets in Resources */,
-				14CBD88428ABE78B002ABDBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +276,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CBD88128ABE78B002ABDBD /* ViewController.swift in Sources */,
 				14CBD87D28ABE78B002ABDBD /* AppDelegate.swift in Sources */,
+				14CBD8DE28AE2DAA002ABDBD /* InfoVCPresenter.swift in Sources */,
 				14CBD87F28ABE78B002ABDBD /* SceneDelegate.swift in Sources */,
+				14CBD8E028AE317E002ABDBD /* Navigator.swift in Sources */,
+				14CBD8A128AC1DDD002ABDBD /* HeroesPresenter.swift in Sources */,
+				14CBD8D428AE2B17002ABDBD /* HeroesCell.swift in Sources */,
+				14CBD8D928AE2C36002ABDBD /* InfoVC.swift in Sources */,
+				14CBD8DC28AE2D8E002ABDBD /* Assembler.swift in Sources */,
+				14CBD8C928AD45A9002ABDBD /* NetworkingService.swift in Sources */,
+				14CBD89628AC1D2A002ABDBD /* FuturamaVC.swift in Sources */,
+				14CBD89E28AC1DCF002ABDBD /* HeroesVC.swift in Sources */,
+				14CBD89A28AC1D51002ABDBD /* FuturamaPresenter.swift in Sources */,
+				14CBD8A428AC1FAC002ABDBD /* HeroesFuturama.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		14CBD88228ABE78B002ABDBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14CBD88328ABE78B002ABDBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		14CBD88728ABE78D002ABDBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +431,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4U5S5LAP79;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lesson_11_Futurama/Info.plist;
+				INFOPLIST_FILE = Lesson_11_Futurama/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +458,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4U5S5LAP79;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Lesson_11_Futurama/Info.plist;
+				INFOPLIST_FILE = Lesson_11_Futurama/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
