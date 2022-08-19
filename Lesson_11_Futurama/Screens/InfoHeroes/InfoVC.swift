@@ -11,6 +11,8 @@ import UIKit
     
 class InfoVC: UIViewController {
 
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var infoImageView: UIImageView!
     
     @IBOutlet weak var speciesLable: UILabel!
@@ -52,8 +54,8 @@ extension InfoVC {
         }
         nameLabel.text = presenter.model.name
         ageLabel.text = presenter.model.age
-        planetLable.text = presenter.model.planet.rawValue
-        statusLable.text = presenter.model.status.rawValue
-        speciesLable.text = presenter.model.species.rawValue
+        planetLable.text = presenter.model.planet
+        statusLable.text = presenter.model.status
+        speciesLable.text = presenter.model.species
 }
 }

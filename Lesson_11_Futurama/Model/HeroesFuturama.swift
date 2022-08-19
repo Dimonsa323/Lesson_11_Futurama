@@ -9,11 +9,11 @@ import Foundation
 
 
 struct Futurama: Decodable {
-    let species: Species
+    let species: String
     let age: String
-    let planet: Planet
+    let planet: String
     let profession: String
-    let status: Status
+    let status: String
     let firstAppearance: String
     let picURL: String
     let relatives, voicedBy, name: String
@@ -32,23 +32,5 @@ struct Futurama: Decodable {
     }
 }
 
-enum Planet: String, Decodable {
-    case earth = "Earth"
-    case unknown = "Unknown"
-}
-
-enum Species: String, Decodable {
-    case formerlyHumanCurrentlyHeadInJarPossibly = "Formerly: HumanCurrently: Head in Jar (possibly)"
-    case human = "Human"
-    case humanClone = "Human/Clone"
-    case unknown = "Unknown"
-}
-
-enum Status: String, Decodable {
-    case alive = "Alive"
-    case aliveLivesInUniverseGamma = "Alive (lives in Universe Gamma)"
-    case deceased = "Deceased"
-    case unknown = "Unknown"
-}
 
 

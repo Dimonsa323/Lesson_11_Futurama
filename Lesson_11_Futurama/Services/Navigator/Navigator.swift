@@ -7,11 +7,14 @@
 
 import Foundation
 import UIKit
-
+    
+    // MARK: - Protocol
 
 protocol NavigatorProtocol {
     func showDetailVC(model: Futurama, view: UIViewController, networking: NetworkingServiceProtocol)
 }
+
+    // MARK: - Navigator
 
 class Navigator {
     
@@ -23,6 +26,8 @@ class Navigator {
     }
 }
 
+
+    // MARK: - Private Extension 
 
 extension Navigator: NavigatorProtocol {
     

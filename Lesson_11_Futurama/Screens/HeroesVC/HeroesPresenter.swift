@@ -23,7 +23,6 @@ class HeroesPresenter {
     // MARK: - Properties
     
     var heroesFuturama: [Futurama] = []
-    
     private let navigator: NavigatorProtocol
     private let networking: NetworkingServiceProtocol
     
@@ -47,7 +46,6 @@ extension HeroesPresenter: HeroesPresenterProtocol {
     func showNextScreen(view: UIViewController, indexPath: IndexPath) {
         let model = heroesFuturama[indexPath.row]
         navigator.showDetailVC(model: model, view: view, networking: networking)
-       
     }
     }
     

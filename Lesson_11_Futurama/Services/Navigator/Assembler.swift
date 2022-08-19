@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+    // MARK: - Assembler
 
 class Assembler {
     func createDetailVC(model: Futurama, networking: NetworkingServiceProtocol, navigator: NavigatorProtocol) -> UIViewController {
